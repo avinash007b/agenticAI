@@ -49,14 +49,30 @@ builder.add_edge(
 )
 
 builder.add_edge(
-    "monitoring_agent",
+    START,
     "database_agent"
 )
 
 builder.add_edge(
-    "database_agent",
+    ["monitoring_agent", "database_agent"],
     "business_impact_agent"
 )
+
+
+# builder.add_edge(
+#     START,
+#     "monitoring_agent"
+# )
+
+# builder.add_edge(
+#     "monitoring_agent",
+#     "database_agent"
+# )
+
+# builder.add_edge(
+#     "database_agent",
+#     "business_impact_agent"
+# )
 
 builder.add_edge(
     "business_impact_agent",
