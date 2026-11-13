@@ -1,0 +1,18 @@
+[
+  {
+    "ticket_id": "TICK-1001",
+    "title": "VPN Connection Issue",
+    "description": "Employee cannot connect to corporate VPN.",
+    "status": "In Progress",
+    "priority": "High",
+    "assigned_to": "IT Network Team"
+  },
+  {
+    "ticket_id": "TICK-1002",
+    "title": "Laptop Battery Issue",
+    "description": "Laptop battery is not charging.",
+    "status": "Open",
+    "priority": "Medium",
+    "assigned_to": "Hardware Support Team"
+  }
+]

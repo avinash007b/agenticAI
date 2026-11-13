@@ -1,0 +1,7 @@
+
+agenticai123$
+
+
+LANGFUSE_SECRET_KEY="xx"
+LANGFUSE_PUBLIC_KEY="xx"
+LANGFUSE_BASE_URL="https://cloud.langfuse.com"
